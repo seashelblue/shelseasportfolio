@@ -1,0 +1,62 @@
+body {
+    background-image: url("antarctica.jpeg");
+    background-size: cover;
+}
+
+
+.container {
+    border: 1px lavenderblush;
+    height: auto;
+    width: 1000px;
+    margin-top: 25px;
+    background-color: lightslategray;
+}
+
+.image-fluid {
+    height: 300px;
+    width: 250px;
+    position: relative;
+}
+  .about{
+      margin: 10px;
+
+  }
+
+  #picture-box{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+ p {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#profile-pic {
+    border: 2px solid black;
+    margin: 5px;
+}
+.project {
+    margin: 5px
+}
+
+#contact {
+    margin: 40px;
+
+}
+
+#contact-box {
+    margin: 25px;
+    background:teal;
+    color: white;
+}
+
+#bottom {
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    background-color: lightslategray;
+    
